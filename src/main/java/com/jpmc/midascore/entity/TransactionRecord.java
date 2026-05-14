@@ -10,9 +10,11 @@ public class TransactionRecord {
     private Long id;
 
     @ManyToOne
+    @JoinColumn(name= "sender_id")
     private UserRecord sender;
 
     @ManyToOne
+    @JoinColumn(name = "recipient_id")
     private UserRecord recipient;
 
     private float amount;

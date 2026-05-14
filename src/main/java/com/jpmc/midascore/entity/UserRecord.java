@@ -23,6 +23,12 @@ public class UserRecord {
         this.balance = balance;
     }
 
+    public UserRecord(long id, String name, float balance) {
+        this.id = id;
+        this.name = name;
+        this.balance = balance;
+    }
+
     @Override
     public String toString() {
         return String.format("User[id=%d, name='%s', balance='%f'", id, name, balance);
