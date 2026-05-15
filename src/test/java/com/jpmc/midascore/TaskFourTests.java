@@ -23,6 +23,10 @@ public class TaskFourTests {
     @Autowired
     private FileLoader fileLoader;
 
+    @Autowired
+    private com.jpmc.midascore.repository.UserRepository userRepository;
+
+
     @Test
     void task_four_verifier() throws InterruptedException {
         userPopulator.populate();
