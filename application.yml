@@ -15,8 +15,9 @@ spring:
       spring.json.trusted.packages: "*"
     
     logging:
-    level:
-      org.apache.kafka: WARN
-      org.springframework.kafka: WARN
-
+      level:
+        org.apache.kafka: WARN
+        org.springframework.kafka: WARN
   
+server:
+  port: 33400  

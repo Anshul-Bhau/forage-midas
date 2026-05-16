@@ -27,6 +27,10 @@ public class TaskFiveTests {
     @Autowired
     private BalanceQuerier balanceQuerier;
 
+    @Autowired
+    private com.jpmc.midascore.repository.UserRepository userRepository;
+
+
 
     @Test
     void task_five_verifier() throws InterruptedException {
